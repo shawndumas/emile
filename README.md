@@ -37,7 +37,7 @@ One method:
    * options (Object) - optional; the following options are available
       * duration (Number) - duration of the animation in milliseconds
       * after (Function) - a function which will be executed after the animation is finished
-      * easing (string) - easing for the animation.
+      * easing (string) - easing for the animation. (Bounce, linear, powIn, powOut, expoIn, expoOut, circIn, circOut, sineIn, sineOut, backIn, backOut, elasticIn, elasticOut, quadIn, quadOut, cubicIn, cubicOut, quartIn, quartOut, quintIn, and quintOut)
    * after (Function) - optional; a callback that will be excuted after everything is done (in addition to options.after)
 
 ### License ###

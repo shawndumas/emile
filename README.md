@@ -6,7 +6,7 @@
 * Doesn't need a JavaScript framework
 * Full set of CSS properties for animation (length-based and colors)
 * Easing and callbacks
-* Less than 50 lines of code
+* ~200 lines of code
 
 Get updates on Twitter: <http://twitter.com/emilejs>
 

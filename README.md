@@ -27,7 +27,7 @@ Also see the video of Thomas Fuchs' presentation at Fronteers 2009:
 
 One method:
 
-    emile(element, style, options, after)
+    emile(element, style, options)
 
 **Parameters**
 

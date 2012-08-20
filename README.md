@@ -10,7 +10,7 @@
 
 Get updates on Twitter: <http://twitter.com/emilejs>
 
-Also see the video of my presentation at Fronteers 2009:
+Also see the video of Thomas Fuchs' presentation at Fronteers 2009:
 <http://fronteers.nl/congres/2009/sessions/roll-your-own-effects-framework>
 
 ### Targeted platforms ###

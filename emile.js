@@ -126,13 +126,13 @@
                     if (pos < (1 / 2.75)) {
                         return (7.5625 * pos * pos);
                     } else if (pos < (1.5 / 2.75)) {
-                        return (7.5625 * (pos -= (1.5 / 2.75)) * pos + .75);
+                        return (7.5625 * (pos -= (1.5 / 2.75)) * pos + 0.75);
                     } else if (pos < (2 / 2.75)) {
-                        return (7.5625 * (pos -= (1.5 / 2.75)) * pos + .75);
+                        return (7.5625 * (pos -= (1.5 / 2.75)) * pos + 0.75);
                     } else if (pos < (2.5 / 2.75)) {
-                        return (7.5625 * (pos -= (2.25 / 2.75)) * pos + .9375);
+                        return (7.5625 * (pos -= (2.25 / 2.75)) * pos + 0.9375);
                     } else {
-                        return (7.5625 * (pos -= (2.625 / 2.75)) * pos + .984375);
+                        return (7.5625 * (pos -= (2.625 / 2.75)) * pos + 0.984375);
                     }
                 },
                 linear: function (pos) {
@@ -190,7 +190,8 @@
         }
         interval = setInterval(function () {
             var time = (+new Date),
-                pos = (time > finish) ? 1 : (time - start) / dur;
+                pos = (time > finish) ? 1 : (time - start) / dur,
+                prop;
 
             for (prop in target) {
                 var s = (current[prop].value === 'auto') ? el.offsetWidth : current[prop].value,

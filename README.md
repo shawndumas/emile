@@ -3,7 +3,7 @@
 
 #### Stand-alone CSS animation JavaScript mini-framework ####
 
-* Doesn't need a JavaScript framework
+* Does not need a JavaScript framework
 * Full set of CSS properties for animation (length-based and colors)
 * Easing and callbacks
 * ~200 lines of code

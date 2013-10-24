@@ -1,0 +1,10 @@
+{
+  "libs": [
+    "browser"
+  ],
+  "loadEagerly": [
+    "emile.js"
+  ],
+  "plugins": {
+  }
+}
